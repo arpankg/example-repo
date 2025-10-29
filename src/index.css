@@ -9,3 +9,9 @@ body {
 html, body, #root {
   height: 100%;
 }
+
+@media (max-width: 1024px) {
+  .cal-embed {
+    max-height: 300px !important;
+  }
+}
